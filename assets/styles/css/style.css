@@ -31,20 +31,32 @@
     text-align: center;
     list-style-type: none;
   }
+  body header nav ul li {
+    font-size: 1rem;
+  }
   body main {
-    height: 85%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 82%;
+    margin-bottom: 0;
   }
   body main section {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
   }
-  body main section section h1 {
-    text-position: top;
+  body main section h1 {
+    margin-top: 25vh;
+    display: grid;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 0;
   }
-  body footer {
+  body main section h2 {
+    display: grid;
+    text-align: center;
+    font-size: 4.5rem;
+    color: #8ae7c3;
+    margin-top: 0;
+  }
+  footer {
     display: flex;
     justify-content: center;
     margin-bottom: 0;
