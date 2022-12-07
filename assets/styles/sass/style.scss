@@ -1,0 +1,17 @@
+@media (max-width : 768px){
+    
+body{
+    background: linear-gradient(rgba(14, 66, 143, 0.7), rgba(37, 115, 234, 0.7), rgba(14, 66, 143, 0.7)), url("assets/img/codyep.jpg");
+    
+    header{
+        .sr-only{
+            display: none;
+        }
+        figure{ 
+            
+            height: 10px;
+            width: 5px;
+        }
+    }
+  }
+}
